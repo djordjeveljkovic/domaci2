@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Inter:wght@600&family=Roboto&family=Spinnaker&display=swap');
+
 .navbar {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -110,17 +112,20 @@ p {
 .dugmici {
   padding: 0rem 7rem 0rem 7rem;
 }
+
 .tekst {
   padding: 5rem 8rem 4rem 8rem;
 }
+
 .ponuda {
   padding: 0px;
   background: #D9D9D9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
-.ponudaistaknuto{
+
+.ponudaistaknuto {
   transform: scale(1.1);
-  border:2px solid black;
+  border: 2px solid black;
   box-shadow: 15px 8px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -131,7 +136,7 @@ p {
 }
 
 .ponudaistaknuto .ponudanaslov {
-background: #314c49;
+  background: #314c49;
 }
 
 .ponudanaslov span {
@@ -159,6 +164,7 @@ background: #314c49;
 .ponudaistaknuto .ponudacena {
   background: #49716C;
 }
+
 .ponudacena .cena {
   font-family: 'Spinnaker';
   font-style: normal;
@@ -174,7 +180,7 @@ background: #314c49;
 
 }
 
-.ponudaistaknuto .ponudacena .cena{
+.ponudaistaknuto .ponudacena .cena {
   color: #FFFFFF;
 }
 
@@ -193,7 +199,7 @@ background: #314c49;
 }
 
 
-.ponudaistaknuto .ponudacena .tip{
+.ponudaistaknuto .ponudacena .tip {
   color: #FFFFFF;
 }
 
@@ -274,6 +280,158 @@ background: #314c49;
 }
 
 
+.popust {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 8rem;
+  background: url(ctagb.png);
+}
+
+.popust .iznad {
+  width: 100%;
+}
+
+.popust .levo {
+  background: #883E3E;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 30%;
+}
+
+.popust .levo .tekst {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 58px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+  padding: 0px;
+}
+
+.popust .levo .tekstboldovano {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 115px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.popust .desno {
+  background: #C65858;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.popust .desno .tekstbeli {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.popust .desno .tekstsivi {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 58px;
+
+  display: flex;
+  align-items: center;
+
+  color: #5D2A2A;
+}
+
+.popust .ispod {
+  padding: 25px;
+  margin-top: 2rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 100%;
+}
+
+.popust .ispod .domen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 15px;
+  width: 70%;
+  background: #FFFFFF;
+  border-radius: 10px 0px 0px 10px;
+  font-family: 'Spinnaker';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.popust .ispod .nastavak {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+  width: 10%;
+
+  background: #D9D9D9;
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.popust .ispod .dugmepopust {
+  padding: 5px 15px;
+
+  background: #646464;
+  border-radius: 0px 10px 10px 0px;
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 48px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+
+  color: #FFFFFF;
+
+}
+
 .news {
   display: flex;
   flex-direction: row;
@@ -282,6 +440,7 @@ background: #314c49;
   padding: 25px 8rem;
   background: #2D2D2D;
 }
+
 
 .news .mejl {
   display: flex;
@@ -368,25 +527,31 @@ background: #314c49;
 
 
 @media (max-width: 500px) {
-  .lista{
+  .lista {
     padding: 25px 20px;
   }
+
   .lista p {
     font-size: 1.2rem;
   }
+
   .tekst {
     padding: 1rem 20px 1rem 20px;
   }
+
   .dugmici {
     padding: 0rem 20px 0rem 20px;
     flex-direction: column;
   }
-  .ponudaistaknuto{
+
+  .ponudaistaknuto {
     transform: scale(1);
   }
-  .dugmehmhm{
-    width:100%
+
+  .dugmehmhm {
+    width: 100%
   }
+
   .hero-image img {
     height: 200px;
     object-fit: cover;
@@ -420,6 +585,9 @@ background: #314c49;
   }
 
   .futer img {
+    display: none;
+  }
+  .popust {
     display: none;
   }
 
